@@ -9,6 +9,7 @@ private:
     char FeedBackId[10];
     char FeedBackDate[20];
     char Discription[50];
+
 public:
     FeedBack();
     FeedBack(const char FId[],const char Fdate[], const char Fdis[]);
