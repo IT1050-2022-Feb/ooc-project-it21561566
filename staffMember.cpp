@@ -10,7 +10,6 @@ using namespace std;
 staffMember::staffMember()
 {
 }
-
 staffMember::staffMember(string cName, string cID, string cEmail,string sDesignation)
 {
     Name = cName;

@@ -6,6 +6,7 @@
 #include "Payment.h"
 #include "FeedBack.h"
 #include <iostream>
+#include <string>
 #include <cstring>
 #include <cstdlib>
 using namespace std;
@@ -19,6 +20,22 @@ int main() {
     O1->~Order();
 
   cout << "-----------------------------------------" << endl;
+  
+  cout<<"************************************"<<endl;
+  R_Customer *C1 = new R_Customer("Nipuna", "IT21469046", "niphes1123@gmail.com", "2000-05-01", "Male" ,5);
+  
+    C1->displayCustomerDetails();
+    delete C1;
+  
+  cout<<"************************************"<<endl;
+  cout<<endl;
+  
+  staffMember*s1 = new staffMember("Mahinda R.", "22222AV" ,"mahindar22@gmail.com" ,"senior Editor");
+  
+     s1->displaystaffmDetails();
+     delete s1;
+  
+  cout<<"************************************"<<endl;
   
   Payment* p1 = new Payment();
   Payment* p2 = new Payment();

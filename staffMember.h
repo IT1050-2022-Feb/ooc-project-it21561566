@@ -4,8 +4,8 @@
 #include <iostream> 
 #include<string>
 
-//class staffMember
-class staffMember:public user    //inheritance relationship
+//class  staffMember
+class staffMember:public user   //inheritance relationship
 {
 private:
   string Designation;

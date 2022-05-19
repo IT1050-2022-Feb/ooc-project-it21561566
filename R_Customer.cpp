@@ -29,7 +29,6 @@ void R_Customer::displayCustomerDetails()
     cout << " Customer Gender  = " << Gender << endl;
     cout << " NO. of Oders  = " << noOfOrders << endl;
 }
-
 R_Customer::~R_Customer()
 {
 	cout << "Registerd customer Deleted " << endl;

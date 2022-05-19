@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//class User
+//classUser
 class user
 {
 protected:
