@@ -12,14 +12,6 @@
 using namespace std;
 
 int main() {
-
-  cout << "-----------------------------------------" << endl;
-
-    Order* O1 = new Order("OD2154", "2021-02-30", C1);
-    O1->displayOrderDetails();
-    O1->~Order();
-
-  cout << "-----------------------------------------" << endl;
   
   cout<<"************************************"<<endl;
   R_Customer *C1 = new R_Customer("Nipuna", "IT21469046", "niphes1123@gmail.com", "2000-05-01", "Male" ,5);
@@ -36,6 +28,14 @@ int main() {
      delete s1;
   
   cout<<"************************************"<<endl;
+
+  cout << "-----------------------------------------" << endl;
+
+    Order* O1 = new Order("OD2154", "2021-02-30", C1);
+    O1->displayOrderDetails();
+    delete O1;
+
+  cout << "-----------------------------------------" << endl;
   
   Payment* p1 = new Payment();
   Payment* p2 = new Payment();
