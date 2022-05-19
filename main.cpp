@@ -6,6 +6,14 @@ using namespace std;
 
 int main() {
 
+  cout << "-----------------------------------------" << endl;
+
+    Order* O1 = new Order("OD2154", "2021-02-30", C1);
+    O1->displayOrderDetails();
+    O1->~Order();
+
+  cout << "-----------------------------------------" << endl;
+  
   Payment* p1 = new Payment();
   Payment* p2 = new Payment();
   Payment* p3 = new Payment();
