@@ -17,8 +17,6 @@ public:
     ~FeedBack();
 };
 
-
-
 FeedBack::FeedBack()
 {
     strcpy(FeedBackId, "");
