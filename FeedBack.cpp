@@ -3,7 +3,6 @@
 #include <cstring>
 #include<string>
 #include <iostream>
-//#include"R_Customer.h"
 using namespace std;
 
 class FeedBack {
