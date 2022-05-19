@@ -68,19 +68,16 @@ staffMember::staffMember()
     strcpy(designation, "");
     staffM = new Recipe();
 }
-
 staffMember::staffMember(const char rrid[], const char rrname[], const char rrdate[], const char rtype[], const char design[])
 {
     staffM = new Recipe(rrid, rrname, rrdate, rtype);
     strcpy(designation, design);
 }
-
 void staffMember::DispayStaffMember()
 {
     staffM->DisplayRecipe();
     cout << "Publisher Type:" << designation << endl;
 }
-
 staffMember::~staffMember()
 {
     cout << "Staff Member Deleted" << endl;
