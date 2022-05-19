@@ -1,10 +1,10 @@
 #include "user.h"
 #include "staffMember.h"
 #include "R_Customer.h"
-#include "recipe.h"
+#include "Recipe.h"
 #include "Order.h"
 #include "Payment.h"
-#include "feedback.h"
+#include "FeedBack.h"
 #include <iostream>
 #include <cstring>
 #include <cstdlib>
